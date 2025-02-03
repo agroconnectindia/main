@@ -3,10 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Backend Working</title>
+    <title>Agro Connect Backend</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .section {
+            background-color: #d3d3d3;
+            padding: 20px;
+            margin: 10px 0;
+            text-align: left;
+            font-weight: bold;
+        }
+        .box {
+            display: inline-block;
+            background-color: rgb(169, 97, 236);
+            color: white;
+            padding: 10px;
+            margin: 5px;
+            text-align: center;
+            min-width: 100px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .box a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        .box:hover {
+            background-color: darkred;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello There! This is Backend Server!</h1>
-    <p>Backend server is working!</p>
+
+    <div class="container">
+        <h2>Agro Connect Backend</h2>
+
+        <div class="section">
+            Dashboard <br>
+            <div class="box"><a href="/weather">Weather</a></div>
+            <div class="box"><a href="#">Statistics</a></div>
+            <div class="box"><a href="#">Farm Monthly Record</a></div>
+            <div class="box"><a href="#">Seed Information</a></div>
+            <div class="box"><a href="#">Egg Production</a></div>
+            <div class="box"><a href="#">Milk Production</a></div>
+        </div>
+
+        <div class="section">
+            Recommendation <br>
+            <div class="box"><a href="#">Recommendation 1</a></div>
+            <div class="box"><a href="#">Recommendation 2</a></div>
+            <div class="box"><a href="#">Recommendation 3</a></div>
+            <div class="box"><a href="#">Recommendation 4</a></div>
+        </div>
+
+        <div class="section">
+            Reports <br>
+            <div class="box"><a href="#">Report 1</a></div>
+            <div class="box"><a href="#">Report 2</a></div>
+            <div class="box"><a href="#">Report 3</a></div>
+            <div class="box"><a href="#">Report 4</a></div>
+        </div>
+
+    </div>
+
 </body>
 </html>

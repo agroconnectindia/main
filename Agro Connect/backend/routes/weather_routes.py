@@ -1,6 +1,6 @@
 # Developer: Prajwal Dhage
 from flask import Blueprint, jsonify
-from modules.weather import get_weather_data
+from modules.Dashboard.weather import get_weather_data
 
 weather_bp = Blueprint('weather', __name__)  # Define a Blueprint
 
